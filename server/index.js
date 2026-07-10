@@ -10,7 +10,7 @@ dotenv.config()
 
 const app = express();
 app.use(cors({
-    origin:"https://interviewiq-client-74uo.onrender.com/",
+    origin:"https://interviewiq-client-74uo.onrender.com",
     credentials:true
 }))
 
